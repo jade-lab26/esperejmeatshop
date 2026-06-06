@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espere J Meatshop | Fresh Quality Meats in Ormoc City Since 2003</title>
+  <meta name="description" content="Espere J Meatshop - family-owned butcher in Ormoc City's P.M. Grand Central Market since 2003. Fresh beef, pork, chicken, carabao, and homemade chorizo. Stall #40-41. Call +63 928 300 3940.">
+  <meta name="keywords" content="meat shop Ormoc City, fresh meat Ormoc, butcher Ormoc, beef pork chicken Ormoc, carabao meat, homemade chorizo, P.M. Grand Central Market, Espere J Meatshop">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Espere J Meatshop | Fresh Quality Meats in Ormoc City">
+  <meta property="og:description" content="Family-owned meat shop in Ormoc City since 2003. Fresh beef, pork, chicken, carabao and homemade chorizo. Stall #40-41, P.M. Grand Central Market.">
+  <meta property="og:type" content="website">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"MeatEstablishment","name":"Espere J Meatshop","telephone":"+639283003940","foundingDate":"2003","address":{"@type":"PostalAddress","streetAddress":"P.M. Grand Central Market, Stall #40-41, Meat Section, B Bldg.","addressLocality":"Ormoc City","addressRegion":"Leyte","postalCode":"6541","addressCountry":"PH"},"geo":{"@type":"GeoCoordinates","latitude":11.005324,"longitude":124.6088936},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"06:00","closes":"18:00"}],"priceRange":"PHP"}</script>
+  <meta name="google-site-verification" content="D36Txz9Brza_rwe6HD_JPObIWussQGv9K7nY3sIDVLk" />
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--primary:#8B1A1A;--primary-hover:#A52020;--bg:#FAF8F3;--card-bg:#F5EFE4;--fg:#2A2016;--muted:#7A6A5A;--border:#DDD4C6;--accent:#9B6833;--white:#ffffff;--wa:#25D366;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;overflow-x:hidden;}
+    body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--fg);line-height:1.6;overflow-x:hidden;max-width:100%;padding-top:72px;}
+    h1,h2,h3,h4{font-family:'Playfair Display',serif;}
+    a{text-decoration:none;}
+    img{display:block;max-width:100%;}
+    .nav{position:fixed;top:0;left:0;right:0;z-index:200;background:var(--white);border-bottom:1px solid var(--border);transition:box-shadow .3s;}
+    .nav.scrolled{box-shadow:0 2px 16px rgba(0,0,0,.09);}
+    .nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;height:72px;display:flex;align-items:center;justify-content:space-between;}
+    .nav-logo img{height:52px;}
+    .nav-links{display:flex;gap:28px;list-style:none;}
+    .nav-links a{color:var(--fg);font-size:15px;font-weight:500;transition:color .2s;}
+    .nav-links a:hover{color:var(--primary);}
+    .nav-right{display:flex;align-items:center;gap:14px;}
+    .nav-phone{display:flex;align-items:center;gap:6px;color:var(--primary);font-weight:600;font-size:15px;}
+    .btn-fb{background:var(--primary);color:var(--white);padding:10px 20px;border-radius:6px;font-size:14px;font-weight:600;display:flex;align-items:center;gap:6px;transition:background .2s;}
+    .btn-fb:hover{background:var(--primary-hover);}
+    .hero{position:relative;height:88vh;min-height:560px;overflow:hidden;}
+    .slide{position:absolute;inset:0;opacity:0;transition:opacity .9s ease;}
+    .slide.active{opacity:1;}
+    .slide img{width:100%;height:100%;object-fit:cover;}
+    .slide::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,rgba(0,0,0,.68) 0%,rgba(0,0,0,.35) 55%,transparent 100%);}
+    .hero-body{position:absolute;inset:0;z-index:2;display:flex;align-items:center;}
+    .hero-container{max-width:1200px;width:100%;margin:0 auto;padding:0 24px;}
+    .hero-text{max-width:560px;}
+    .hero-eyebrow{font-family:'Inter',sans-serif;font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--accent);margin-bottom:14px;}
+    .hero-h1{font-size:clamp(1.9rem,3.8vw,3rem);font-weight:700;color:var(--white);line-height:1.2;margin-bottom:18px;}
+    .hero-sub{font-size:17px;color:rgba(255,255,255,.88);margin-bottom:32px;line-height:1.65;}
+    .hero-btns{display:flex;gap:14px;flex-wrap:wrap;}
+    .btn-red{background:var(--primary);color:var(--white);padding:15px 30px;border-radius:6px;font-size:16px;font-weight:600;display:inline-flex;align-items:center;gap:8px;transition:background .2s,transform .1s;}
+    .btn-red:hover{background:var(--primary-hover);transform:translateY(-1px);}
+    .btn-ghost{background:transparent;color:var(--white);padding:15px 30px;border-radius:6px;font-size:16px;font-weight:600;border:2px solid rgba(255,255,255,.65);display:inline-flex;align-items:center;gap:8px;transition:all .2s;}
+    .btn-ghost:hover{background:rgba(255,255,255,.12);border-color:var(--white);}
+    .hero-caption{position:absolute;bottom:56px;left:50%;transform:translateX(-50%);z-index:3;background:rgba(0,0,0,.48);backdrop-filter:blur(5px);border-radius:8px;padding:10px 22px;min-width:200px;}
+    .caption-name{font-weight:700;font-size:14px;color:var(--white);}
+    .caption-desc{font-size:12px;color:rgba(255,255,255,.8);margin-top:2px;}
+    .hero-dots{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);z-index:3;display:flex;gap:8px;}
+    .dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.4);border:none;cursor:pointer;padding:0;transition:background .3s,transform .3s;}
+    .dot.active{background:var(--white);transform:scale(1.35);}
+    .stats{background:var(--bg);padding:40px 24px;}
+    .stats-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+    .stat-card{text-align:center;padding:28px 16px;background:var(--white);border:1px solid var(--border);border-radius:10px;}
+    .stat-icon{width:46px;height:46px;border-radius:50%;background:#f9e8e8;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;color:var(--primary);}
+    .stat-val{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:var(--fg);}
+    .stat-sub{font-size:12px;color:var(--muted);margin-top:6px;}
+    .section{padding:80px 24px;}
+    .container{max-width:1200px;margin:0 auto;}
+    .sec-tag{font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--primary);margin-bottom:10px;}
+    .sec-title{font-size:clamp(1.7rem,3vw,2.4rem);font-weight:700;color:var(--fg);margin-bottom:14px;}
+    .sec-sub{font-size:15px;color:var(--muted);max-width:540px;margin:0 auto 48px;text-align:center;}
+    .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+    .story-img{border-radius:12px;overflow:hidden;aspect-ratio:4/3;}
+    .story-img img{width:100%;height:100%;object-fit:cover;}
+    .story-text p{font-size:15px;color:var(--muted);line-height:1.8;margin-bottom:14px;}
+    .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;}
+    .badge{background:#f9e8e8;color:var(--primary);padding:6px 14px;border-radius:20px;font-size:13px;font-weight:500;}
+    .products-bg{background:var(--card-bg);}
+    .prod-row1{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:24px;}
+    .prod-row2{display:flex;justify-content:center;gap:24px;}
+    .prod-row2 .pcard{width:calc(33.333% - 12px);}
+    .pcard{background:var(--white);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:transform .2s,box-shadow .2s;position:relative;display:flex;flex-direction:column;}
+    .pcard:hover{transform:translateY(-4px);box-shadow:0 8px 28px rgba(0,0,0,.1);}
+    .pcard-img{aspect-ratio:4/3;overflow:hidden;}
+    .pcard-img img{width:100%;height:100%;object-fit:cover;transition:transform .35s;}
+    .pcard:hover .pcard-img img{transform:scale(1.05);}
+    .pcard-body{padding:20px;display:flex;flex-direction:column;flex:1;}
+    .pcard-name{font-size:18px;font-weight:600;color:var(--fg);margin-bottom:6px;}
+    .pcard-desc{font-size:14px;color:var(--muted);margin-bottom:16px;line-height:1.5;flex:1;}
+    .btn-order{display:inline-flex;align-items:center;gap:6px;color:var(--primary);font-size:14px;font-weight:600;background:none;border:none;cursor:pointer;padding:0;transition:gap .2s;margin-top:auto;}
+    .btn-order:hover{gap:10px;}
+    .prod-cta{text-align:center;margin-top:40px;}
+    .prod-cta p{font-size:15px;color:var(--muted);margin-bottom:14px;}
+    .btn-contact{background:var(--primary);color:var(--white);padding:14px 32px;border-radius:6px;font-size:15px;font-weight:600;display:inline-flex;align-items:center;gap:8px;transition:background .2s;}
+    .btn-contact:hover{background:var(--primary-hover);}
+    .best-seller-badge{position:absolute;top:12px;left:12px;z-index:1;background:var(--primary);color:var(--white);font-size:11px;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:.5px;}
+    .faq-list{max-width:760px;margin:0 auto;}
+    .faq-item{border:1px solid var(--border);border-radius:10px;margin-bottom:12px;overflow:hidden;background:var(--white);}
+    .faq-q{width:100%;text-align:left;padding:20px 24px;background:none;border:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-family:'Inter',sans-serif;font-size:15px;font-weight:600;color:var(--fg);gap:16px;}
+    .faq-q:hover{color:var(--primary);}
+    .faq-icon{flex-shrink:0;width:22px;height:22px;border-radius:50%;background:#f9e8e8;color:var(--primary);display:flex;align-items:center;justify-content:center;transition:transform .3s;}
+    .faq-item.open .faq-icon{transform:rotate(45deg);}
+    .faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease,padding .3s;font-size:14px;color:var(--muted);line-height:1.75;padding:0 24px;}
+    .faq-item.open .faq-a{max-height:300px;padding:0 24px 20px;}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:stretch;}
+    .contact-left{display:flex;flex-direction:column;}
+    .cinfo-item{display:flex;gap:16px;align-items:flex-start;margin-bottom:28px;}
+    .cinfo-icon{width:44px;height:44px;border-radius:50%;background:#f9e8e8;display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--primary);}
+    .cinfo-label{font-weight:600;font-size:15px;color:var(--fg);margin-bottom:4px;}
+    .cinfo-val{font-size:14px;color:var(--muted);line-height:1.6;}
+    .cinfo-val a{color:var(--primary);font-weight:600;}
+    .map-wrap{border-radius:12px;overflow:hidden;border:1px solid var(--border);margin-top:32px;width:100%;}
+    .map-wrap iframe{width:100%;display:block;height:380px;min-width:0;}
+    .order-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:32px;align-self:flex-start;}
+    .order-card h3{font-size:1.6rem;font-weight:700;color:var(--fg);margin-bottom:10px;}
+    .order-card p{font-size:14px;color:var(--muted);line-height:1.6;margin-bottom:24px;}
+    .btn-wa{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:14px 24px;border-radius:8px;font-size:15px;font-weight:600;background:var(--wa);color:var(--white);border:none;margin-bottom:12px;transition:background .2s;}
+    .btn-wa:hover{background:#1ebe5d;}
+    .btn-call-full{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:14px 24px;border-radius:8px;font-size:15px;font-weight:600;background:var(--primary);color:var(--white);border:none;transition:background .2s;}
+    .btn-call-full:hover{background:var(--primary-hover);}
+    footer{background:var(--fg);color:rgba(255,255,255,.8);padding:56px 24px 28px;}
+    .footer-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px;}
+    .f-brand{font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--white);margin-bottom:10px;}
+    .f-tagline{font-size:13px;color:rgba(255,255,255,.5);line-height:1.7;margin-bottom:18px;}
+    .f-social{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.6);font-size:13px;text-decoration:none;transition:color .2s;}
+    .f-social:hover{color:var(--white);}
+    .f-heading{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--white);margin-bottom:16px;}
+    .f-links{list-style:none;}
+    .f-links li{margin-bottom:10px;}
+    .f-links a{color:rgba(255,255,255,.6);font-size:14px;transition:color .2s;}
+    .f-links a:hover{color:var(--white);}
+    .f-item{display:flex;align-items:flex-start;gap:10px;margin-bottom:12px;}
+    .f-item-icon{color:var(--primary);flex-shrink:0;margin-top:2px;}
+    .f-item-text{font-size:14px;color:rgba(255,255,255,.6);line-height:1.6;}
+    .f-item-text a{color:rgba(255,255,255,.6);transition:color .2s;}
+    .f-item-text a:hover{color:var(--white);}
+    .footer-bottom{max-width:1200px;margin:0 auto;border-top:1px solid rgba(255,255,255,.1);padding-top:24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;}
+    .footer-bottom p{font-size:13px;color:rgba(255,255,255,.35);}
+    .footer-badges{display:flex;gap:10px;flex-wrap:wrap;}
+    .fbadge{font-size:12px;color:rgba(255,255,255,.35);border:1px solid rgba(255,255,255,.15);padding:4px 10px;border-radius:4px;}
+    .float-wa{position:fixed;bottom:24px;right:24px;z-index:999;width:60px;height:60px;border-radius:50%;background:var(--wa);color:var(--white);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(37,211,102,.45);transition:transform .2s,box-shadow .2s;}
+    .float-wa:hover{transform:scale(1.1);box-shadow:0 6px 24px rgba(37,211,102,.55);}
+    .float-wa svg{width:30px;height:30px;}
+    @media(max-width:900px){.story-grid{grid-template-columns:1fr;}.contact-grid{grid-template-columns:1fr;}.footer-grid{grid-template-columns:1fr 1fr;gap:32px;}}
+    /* Hamburger */
+    .hamburger{display:none;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;background:none;border:none;cursor:pointer;padding:4px;}
+    .hamburger span{display:block;height:2px;background:var(--fg);border-radius:2px;transition:transform .3s,opacity .3s;}
+    .hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+    .hamburger.open span:nth-child(2){opacity:0;}
+    .hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+    .mobile-menu{display:none;position:fixed;top:72px;left:0;right:0;background:var(--white);border-bottom:1px solid var(--border);z-index:199;padding:20px 24px 28px;box-shadow:0 8px 24px rgba(0,0,0,.1);}
+    .mobile-menu.open{display:block;}
+    .mobile-menu ul{list-style:none;margin-bottom:20px;}
+    .mobile-menu ul li{border-bottom:1px solid var(--border);}
+    .mobile-menu ul li a{display:block;padding:14px 0;font-size:16px;font-weight:500;color:var(--fg);}
+    .mobile-menu ul li a:hover{color:var(--primary);}
+    .mobile-menu-phone{display:flex;align-items:center;gap:8px;color:var(--primary);font-weight:600;font-size:15px;margin-bottom:14px;}
+    .mobile-menu-fb{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--primary);color:var(--white);padding:13px;border-radius:6px;font-size:15px;font-weight:600;width:100%;}
+    @media(max-width:768px){
+      .nav-links{display:none;}
+      .nav-right{display:none;}
+      .hamburger{display:flex;}
+      .hero-caption{display:none;}
+      .stats-grid{grid-template-columns:repeat(2,1fr);}
+      .prod-row1{grid-template-columns:1fr;}
+      .prod-row2{flex-direction:column;}
+      .prod-row2 .pcard{width:100%;}
+      .hero{height:72vh;}
+      .footer-bottom{flex-direction:column;text-align:center;}
+      .badges{flex-direction:column;align-items:flex-start;}
+      .badge{width:fit-content;}
+      .footer-grid{grid-template-columns:1fr;}
+    }
+  </style>
+</head>
+<body>
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo"><img src="assets/logo.png" alt="Espere J Meatshop"></a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#faq">FAQs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:+639283003940" class="nav-phone"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>+63 928 300 3940</a>
+      <a href="https://www.facebook.com/esperejmeatshop" target="_blank" class="btn-fb"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>Follow Us</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <ul>
+    <li><a href="#home" onclick="closeMenu()">Home</a></li>
+    <li><a href="#about" onclick="closeMenu()">About</a></li>
+    <li><a href="#products" onclick="closeMenu()">Products</a></li>
+    <li><a href="#faq" onclick="closeMenu()">FAQs</a></li>
+    <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+  </ul>
+  <a href="tel:+639283003940" class="mobile-menu-phone"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>+63 928 300 3940</a>
+  <a href="https://www.facebook.com/esperejmeatshop" target="_blank" class="mobile-menu-fb"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>Follow Us on Facebook</a>
+</div>
+<section class="hero" id="home">
+  <div class="slide active"><img src="assets/chorizo.png" alt="Homemade Chorizo"></div>
+  <div class="slide"><img src="assets/beef.jpg" alt="Premium Beef Cuts"></div>
+  <div class="slide"><img src="assets/porkchop.png" alt="Pork Chops"></div>
+  <div class="slide"><img src="assets/chicken.jpg" alt="Fresh Chicken"></div>
+  <div class="slide"><img src="assets/carabao.jpg" alt="Carabao Meat"></div>
+  <div class="hero-body">
+    <div class="hero-container">
+      <div class="hero-text">
+        <p class="hero-eyebrow">Proudly Serving Since 2003</p>
+        <h1 class="hero-h1">Trusted Family Meat Shop for Over&nbsp;20&nbsp;Years</h1>
+        <p class="hero-sub">Fresh, quality cuts prepared with care and experience. From our family to yours. Meats you can trust.</p>
+        <div class="hero-btns">
+          <a href="#products" class="btn-red">See Our Products</a>
+          <a href="tel:+639283003940" class="btn-ghost"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>Call Janet Now!</a>
+        </div>
+        <p style="margin-top:14px;font-size:13px;color:rgba(255,255,255,.7);display:flex;align-items:center;gap:6px;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 10-16 0"/></svg>Janet, the owner, answers every call personally.</p>
+      </div>
+    </div>
+  </div>
+  <div class="hero-caption"><div class="caption-name" id="cap-name">Homemade Chorizo</div><div class="caption-desc" id="cap-desc">Our signature recipe, made fresh daily</div></div>
+  <div class="hero-dots">
+    <button class="dot active" onclick="toSlide(0)"></button>
+    <button class="dot" onclick="toSlide(1)"></button>
+    <button class="dot" onclick="toSlide(2)"></button>
+    <button class="dot" onclick="toSlide(3)"></button>
+    <button class="dot" onclick="toSlide(4)"></button>
+  </div>
+</section>
+<section class="stats">
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></svg></div><div class="stat-val">20+ Years</div><div class="stat-sub">Family-owned since 2003</div></div>
+    <div class="stat-card"><div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><div class="stat-val">Generations Served</div><div class="stat-sub">Trusted by families</div></div>
+    <div class="stat-card"><div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="stat-val">Fresh Daily</div><div class="stat-sub">Quality you can count on</div></div>
+    <div class="stat-card"><div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></div><div class="stat-val">Certified</div><div class="stat-sub">Business Permit #2608-2026</div></div>
+  </div>
+</section>
+<section class="section" id="about">
+  <div class="container">
+    <div class="story-grid">
+      <div class="story-img"><img src="assets/family.jpg" alt="The Espere Family"></div>
+      <div class="story-text">
+        <p class="sec-tag">Our Story</p>
+        <h2 class="sec-title">A Family Tradition of Quality</h2>
+        <p>Since 2003, Espere J Meatshop has been a trusted name in Ormoc City's P.M. Grand Central public market. What started as a small family stall has grown into a beloved establishment, serving generations of loyal customers.</p>
+        <p>Our commitment is simple: provide the freshest, highest-quality meats at fair prices. Every cut is hand-selected and prepared with the care and attention that only a family-run business can offer.</p>
+        <p>Janet, the owner, personally oversees every cut and customer, ensuring the same care and quality that has kept families coming back for over 20 years.</p>
+        <div class="badges"><span class="badge">Family-Owned and Operated</span><span class="badge">Hands-On Quality Control</span><span class="badge">Community Trusted</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section products-bg" id="products">
+  <div class="container">
+    <div style="text-align:center"><p class="sec-tag">Our Products</p><h2 class="sec-title">Fresh Quality Meats</h2><p class="sec-sub">From premium cuts to our famous homemade chorizo, every product is selected and prepared with care. Available fresh daily at our stall.</p></div>
+    <div class="prod-row1">
+      <div class="pcard" style="border-color:var(--primary)"><span class="best-seller-badge">BEST SELLER</span><div class="pcard-img"><img src="assets/chorizo.png" alt="Homemade Chorizo"></div><div class="pcard-body"><h3 class="pcard-name">Homemade Chorizo</h3><p class="pcard-desc">Our signature recipe made fresh daily. A local Ormoc favorite for over 20 years. Available for delivery within Ormoc City.</p><a href="tel:+639283003940" class="btn-order">Call Janet Now! <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div>
+      <div class="pcard"><div class="pcard-img"><img src="assets/beef.jpg" alt="Beef"></div><div class="pcard-body"><h3 class="pcard-name">Beef</h3><p class="pcard-desc">Premium beef cuts including sirloin, ribeye, tenderloin, and ground beef. Fresh daily.</p><a href="tel:+639283003940" class="btn-order">Call Janet Now! <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div>
+      <div class="pcard"><div class="pcard-img"><img src="assets/porkchop.png" alt="Pork"></div><div class="pcard-body"><h3 class="pcard-name">Pork</h3><p class="pcard-desc">Quality pork chops, tenderloin, belly, and ribs. Hand-selected for freshness.</p><a href="tel:+639283003940" class="btn-order">Call Janet Now! <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div>
+    </div>
+    <div class="prod-row2">
+      <div class="pcard"><div class="pcard-img"><img src="assets/chicken.jpg" alt="Chicken"></div><div class="pcard-body"><h3 class="pcard-name">Chicken</h3><p class="pcard-desc">Whole chickens and custom cuts. Wings, thighs, breast, and more available.</p><a href="tel:+639283003940" class="btn-order">Call Janet Now! <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div>
+      <div class="pcard"><div class="pcard-img"><img src="assets/carabao.jpg" alt="Carabao"></div><div class="pcard-body"><h3 class="pcard-name">Carabao</h3><p class="pcard-desc">Traditional water buffalo meat. Lean, flavorful, and locally sourced.</p><a href="tel:+639283003940" class="btn-order">Call Janet Now! <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div></div>
+    </div>
+    <div class="prod-cta"><p>Custom cuts available upon request.</p><a href="tel:+639283003940" class="btn-contact">Call Janet to Order</a></div>
+  </div>
+</section>
+<section class="section" style="background:var(--card-bg)" id="faq">
+  <div class="container">
+    <div style="text-align:center"><p class="sec-tag">FAQ</p><h2 class="sec-title">Frequently Asked Questions</h2><p class="sec-sub">Everything you need to know before you visit or order.</p></div>
+    <div class="faq-list">
+      <div class="faq-item open"><button class="faq-q" onclick="toggleFaq(this)">Is your chorizo really homemade?<span class="faq-icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg></span></button><div class="faq-a">Absolutely. Our Homemade Chorizo is made fresh daily using our own family recipe, a local favorite in Ormoc City for over 20 years. No preservatives, just real ingredients. We deliver within Ormoc City, and we can also ship to anywhere in Leyte via bus or van freight. Contact us to arrange yours.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Do you deliver chorizo?<span class="faq-icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg></span></button><div class="faq-a">We offer delivery within Ormoc City. For customers outside Ormoc City, we can ship our Homemade Chorizo anywhere in Leyte via bus or van freight. You simply arrange and shoulder the shipping on your end. Just contact us and we will prepare your order for pick-up or drop-off at your preferred transport terminal.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">What are your store hours?<span class="faq-icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg></span></button><div class="faq-a">We are open daily from 6:00 AM to 6:00 PM, including weekends and holidays. We recommend visiting early for the best selection of fresh cuts.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Do you offer custom cuts?<span class="faq-icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg></span></button><div class="faq-a">Yes! We offer custom cuts on all our meats. Just call or text us at +63 928 300 3940, or chat with us on WhatsApp to let us know your preferred cut and quantity.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How do I place an order?<span class="faq-icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg></span></button><div class="faq-a">Simply call or text us at +63 928 300 3940, or send us a message on WhatsApp. Janet answers directly. No call centres, no middlemen. You can then pick up your order fresh at our stall.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Do you sell in bulk?<span class="faq-icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg></span></button><div class="faq-a">Yes, we accommodate bulk orders for events, restaurants, and businesses. Contact us in advance so we can prepare your order and ensure availability.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Where exactly are you located?<span class="faq-icon"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg></span></button><div class="faq-a">We are at Stall #40-41, Meat Section, B Building, P.M. Grand Central Public Market, Brgy. South, Ormoc City, 6541. You can find us on Google Maps by searching "Espere J Meatshop."</div></div>
+    </div>
+  </div>
+</section>
+<section class="section" id="contact">
+  <div class="container">
+    <div style="text-align:center"><p class="sec-tag">Get in Touch</p><h2 class="sec-title">Visit or Contact Us</h2><p class="sec-sub">Reach out for orders, custom cuts, or directions to our stall.</p></div>
+    <div class="contact-grid">
+      <div class="contact-left">
+        <div class="cinfo-item"><div class="cinfo-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg></div><div><div class="cinfo-label">Call Us</div><div class="cinfo-val"><a href="tel:+639283003940">+63 928 300 3940</a></div></div></div>
+        <div class="cinfo-item"><div class="cinfo-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="cinfo-label">Visit Us</div><div class="cinfo-val">P.M. Grand Central, Stall #40-41<br>Meat Section, B Bldg.<br>Brgy. South, Ormoc City, 6541</div></div></div>
+        <div class="cinfo-item"><div class="cinfo-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div><div class="cinfo-label">Business Hours</div><div class="cinfo-val">Daily: 6:00 AM to 6:00 PM</div></div></div>
+      </div>
+      <div><div class="order-card"><h3>Ready to Order?</h3><p>Call or text us directly. No call centres. Janet answers you personally.</p>
+        <a href="tel:+639283003940" class="btn-call-full" style="margin-bottom:12px;"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>Call Janet Now!</a>
+        <a href="https://wa.me/639283003940" target="_blank" class="btn-wa"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>Chat on WhatsApp</a>
+      </div></div>
+    </div>
+    <div class="map-wrap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4433563328485!2d124.6088936!3d11.005324499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3307f12cb32b8e5b%3A0x5363bca54536939b!2sEspere%20J%20Meatshop!5e0!3m2!1sen!2sph!4v1780710893221!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </div>
+</section>
+<footer>
+  <div class="footer-grid">
+    <div><div class="f-brand">Espere J Meatshop</div><p class="f-tagline">Family-owned meat shop serving Ormoc City with fresh, quality meats since 2003.</p><a href="https://www.facebook.com/esperejmeatshop" target="_blank" class="f-social"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>Follow us on Facebook</a></div>
+    <div><div class="f-heading">Contact Us</div>
+      <div class="f-item"><span class="f-item-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg></span><span class="f-item-text"><a href="tel:+639283003940">+63 928 300 3940</a></span></div>
+      <div class="f-item"><span class="f-item-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span><span class="f-item-text"><a href="mailto:jinitaespere14@gmail.com">jinitaespere14@gmail.com</a></span></div>
+      <div class="f-item"><span class="f-item-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span><span class="f-item-text"><a href="https://wa.me/639283003940" target="_blank">Chat on WhatsApp</a></span></div>
+    </div>
+    <div><div class="f-heading">Location</div>
+      <div class="f-item"><span class="f-item-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span><span class="f-item-text">P.M. Grand Central, Stall #40-41<br>Meat Section, B Bldg.<br>Brgy. South, Ormoc City, 6541</span></div>
+      <div class="f-item"><span class="f-item-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span><span class="f-item-text">Daily: 6:00 AM to 6:00 PM</span></div>
+    </div>
+    <div><div class="f-heading">Quick Links</div><ul class="f-links"><li><a href="#home">Home</a></li><li><a href="#about">About Us</a></li><li><a href="#products">Products</a></li><li><a href="#faq">FAQs</a></li><li><a href="#contact">Contact / Order</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>&#169; 2026 Espere J Meatshop. All rights reserved.</p><div class="footer-badges"><span class="fbadge">Business Permit No. 2608-2026</span><span class="fbadge">Family-Owned Since 2003</span></div></div>
+</footer>
+<a href="https://wa.me/639283003940" target="_blank" class="float-wa" title="Chat with us on WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+<script>
+  const slides=document.querySelectorAll('.slide'),dots=document.querySelectorAll('.dot');
+  const captions=[{name:'Homemade Chorizo',desc:'Our signature recipe, made fresh daily'},{name:'Premium Beef Cuts',desc:'Fresh, quality beef for your family meals'},{name:'Tender Pork Chops',desc:'Hand-selected cuts prepared with care'},{name:'Fresh Chicken',desc:'Whole chickens and custom cuts available'},{name:'Carabao Meat',desc:'Traditional Philippine delicacy'}];
+  let cur=0,timer;
+  function toSlide(n){slides[cur].classList.remove('active');dots[cur].classList.remove('active');cur=n;slides[cur].classList.add('active');dots[cur].classList.add('active');document.getElementById('cap-name').textContent=captions[n].name;document.getElementById('cap-desc').textContent=captions[n].desc;clearInterval(timer);timer=setInterval(()=>toSlide((cur+1)%slides.length),5000);}
+  timer=setInterval(()=>toSlide((cur+1)%slides.length),5000);
+  function toggleFaq(btn){const item=btn.closest('.faq-item'),isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));if(!isOpen)item.classList.add('open');}
+  window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('scrolled',scrollY>10));
+  document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'});}}));
+  function toggleMenu(){const h=document.getElementById('hamburger'),m=document.getElementById('mobile-menu');h.classList.toggle('open');m.classList.toggle('open');}
+  function closeMenu(){document.getElementById('hamburger').classList.remove('open');document.getElementById('mobile-menu').classList.remove('open');}
+</script>
+</body>
+</html>
